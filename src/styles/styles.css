@@ -1,3 +1,4 @@
+/* styles.css */
 body {
     background-color: rgb(16, 21, 24);
     color: white;
@@ -10,8 +11,98 @@ nav {
     justify-content: space-evenly;
 }
 
+/* home.js */
+.home {
+    padding-top: 0.5rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homeContents {
+    width: 95%;
+    /* border: 3px solid green; */
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.logoImg {
+    height: 150px;
+    width: 150px;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
 .homies {
-    border: 5px solid red;
+    width: 95%;
+    border: 5px solid rgb(103, 36, 36);
     border-radius: 1rem;
     background-color: rgb(33, 43, 50);
+    text-align: start;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* menu.js */
+.menu {
+    /* padding-top: 0.5rem; */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid green; */
+}
+
+.beverages, .sideDishes, .mainDishes {
+    width: 95%;
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.beverage, .sideDish, .mainDish {
+    width: 95%;
+    border: 5px solid rgb(103, 36, 36);
+    border-radius: 1rem;
+    background-color: rgb(33, 43, 50);
+    text-align: start;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: grid;
+}
+
+.beverage1img, .beverage2img {
+    height: 150px;
+    border-radius: 0.7rem;
+    border: 0.2rem solid rgb(32, 29, 29);
+}
+
+.mainDishes {
+    padding-bottom: 2rem;
+}
+
+/* contact.js */
+
+.contactInfo {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* height: 100vh; */
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.contact {
+    width: 95%;
+    border: 5px solid rgb(103, 36, 36);
+    border-radius: 1rem;
+    background-color: rgb(33, 43, 50);
+    text-align: start;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
